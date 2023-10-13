@@ -1,0 +1,27 @@
+.topnav {
+    background-color: #fdd5b1;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end; /* Align username to the right */
+  }
+  
+  .username {
+    text-align: right;
+  }
+  
+
+  .topnav a:hover {
+    background-color: #d2b3ca;
+    color:black;
+  }
+    
+  .username p {
+    margin: 0;
+  }
+  
+  /* Optional: Style the username text */
+  .username p {
+    font-weight: bold;
+    font-size: 30px;
+  }
